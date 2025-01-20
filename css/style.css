@@ -56,3 +56,8 @@ header .btn-contato button:hover{
     width: 230px;
     height: 230px;
 }
+.social-links a {
+    margin-right: 20px;
+    font-size: 24px;
+    
+}
