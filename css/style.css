@@ -100,77 +100,61 @@ header .btn-contato button:hover {
 
 /* Fim Sobre */
 /* Início Skills */
-.skills {
-    background-color: #3A506B;
-    display: flex;
-    justify-content: center;
-}
-
-.skills-content {
-    max-width: 1440px;
-    margin: 0 auto;
+section.skills {
     padding: 40px 4%;
+}
+h2.title {
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 350;
+    text-align: center;    
+}
+h2.title span {
+    color: #5BC0BE;
+}
+.skills-list {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 60px;
 }
-
-.carousel-container {
-    position: relative;
-    width: 80%;
-    max-width: 1000px;
-    overflow: hidden;
-    margin: auto;
-}
-
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.carousel-item {
-    min-width: 200px;
-    margin: 0 10px;
-    padding: 80px;
+.icon-item {
     background-color: #5BC0BE;
-    border-radius: 10px;
-    text-align: center;
-    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px 40px;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
     justify-content: center;
+    opacity: 0;
+    border-radius: 10px;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    animation: fadeInUp 1s forwards;
+}
+.icon-item i {
+    font-size: 50px;
     color: #FFFFFF;
-    font-size: 20px;
 }
-
-.carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+.icon-item span {
     color: #FFFFFF;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1;
-    font-size: 20px;
+    margin-top: 10px;
+    font-size: 18px;
 }
-
-.prev-btn {
-    left: 10px;
+.icon-item:hover {
+    transform: scale(1.1) translateY(-10px);
 }
-
-.next-btn {
-    right: 10px;
+.icon-item:hover i, .icon-item:hover span {
+    transition: transform 0.3s ease-in-out;
 }
-
-.icon-large {
-    color: #0B132B;
-    font-size: 100px;
-    margin: 20px 0;
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
-
 /* Fim Skills */
 /* Início Projetos */
 .projects {
