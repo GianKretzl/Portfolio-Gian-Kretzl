@@ -157,96 +157,80 @@ h2.title span {
 }
 /* Fim Skills */
 /* Início Projetos */
-.projects {
+section.projects {
     background-color: #1C2541;
+    padding: 40px 4%;
     display: flex;
     justify-content: center;
 }
-
 .projects-content {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 40px 4%;
-    display: block;
-    align-items: center;
-    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
 }
-
-.projects-content h2 {
-    color: #FFFFFF;
-    font-size: 32px;
-    font-weight: 350;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 .cozi {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 60px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.cozi-img {
-    display: grid;
+.cozi img { 
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #5BC0BE;
+    margin-top: 25px; 
+    margin-right: 40px; 
+    box-shadow: #0B132B 0px 0px 10px;
 }
-
-.cozi-img img {
-    grid-area: 1/1;
-    place-self: end;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+.cozi img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
 }
-
 .cozi-text {
     color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 15px;
+    margin-right: 20px;
+    width: 40%;
 }
-
 .cozi-text h3 {
-    font-size: 30px;
-    font-weight: 500;
+    color: #5BC0BE;
+    font-size: 24px;
     margin-bottom: 20px;
 }
-
-.cozi-text p {
-    margin-bottom: 20px;
-}
-
 .cozi-skills {
     display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+    flex-direction: column;
 }
-
+.cozi-skill {
+    display: block;
+    align-items: center;
+    margin-bottom: 10px;
+}
 .cozi-skill p {
-    margin-right: 8px;
-    margin-bottom: 6px;
+    color: #FFFFFF;
     font-size: 13px;
+    margin-right: 10px;
 }
-
 .cozi-skill i {
     color: #5BC0BE;
-    font-size: 20px;
-}
-
-.btn-acess, .btn-contato button {
-    padding: 10px 40px;
     font-size: 18px;
-    font-weight: 500;
+    margin-right: 10px;
+}
+.btn-acess {
+    margin-top: 20px;
+}
+.btn-acess button {
     background-color: #5BC0BE;
     border: none;
-    border-radius: 30px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
-    transition: box-shadow 0.2s;
 }
-
-.btn-acess:hover, .btn-contato button:hover {
-    box-shadow: 0 0 8px #469291;
+.btn-acess button:hover {
+    background-color: #3A7D90;
 }
 
 /* Fim Projetos */
