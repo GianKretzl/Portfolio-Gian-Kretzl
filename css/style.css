@@ -389,21 +389,36 @@ section.projects {
 
 /* Fim Contato */
 /* Início Footer */
-.footer {
+.footer-bg {
+    text-align: center;
+    color: #FFFFFF;       
+}
+.logo-footer img {
+    width: 200px;
+    height: 200px;        
+}
+.nav-content {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+ 
 }
 
-.footer-content {
-    font-size: 15px;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    margin-right: 80px;
+footer ul {
+    list-style-type: none;
 }
-
-.btn-back {
+.nav-link a{
+    display: flex;
+    transition: color 0.2s, transform 0.2s;
+}
+.nav-link i{
     color: #5BC0BE;
+    font-size: 25px;
+    margin-right: 20px;
+    
+}
+.footer-text{
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 /* Fim Footer */
