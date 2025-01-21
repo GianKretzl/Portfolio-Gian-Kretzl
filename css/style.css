@@ -60,8 +60,8 @@ header .btn-contato button:hover {
 }
 
 .img-logo {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
 }
 
 .social-links a {
@@ -69,6 +69,8 @@ header .btn-contato button:hover {
     font-size: 24px;
 }
 
+/* Fim Header */
+/* Início Sobre */
 .on {
     background-color: #1C2541;
     display: flex;
@@ -96,6 +98,8 @@ header .btn-contato button:hover {
     font-weight: 500;
 }
 
+/* Fim Sobre */
+/* Início Skills */
 .skills {
     background-color: #3A506B;
     display: flex;
@@ -166,3 +170,169 @@ header .btn-contato button:hover {
     font-size: 100px;
     margin: 20px 0;
 }
+
+/* Fim Skills */
+/* Início Projetos */
+.projects {
+    background-color: #1C2541;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 4%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-content h2 {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 350;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cozi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 60px 40px;
+}
+
+.cozi-img {
+    display: grid;
+}
+
+.cozi-img img {
+    grid-area: 1/1;
+    place-self: end;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.cozi-text {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.cozi-text h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.cozi-text p {
+    margin-bottom: 20px;
+}
+
+.cozi-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.cozi-skill p {
+    margin-right: 8px;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.cozi-skill i {
+    color: #5BC0BE;
+    font-size: 20px;
+}
+
+.btn-acess, .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #5BC0BE;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.btn-acess:hover, .btn-contato button:hover {
+    box-shadow: 0 0 8px #469291;
+}
+
+/* Fim Projetos */
+/* Início Contato */
+.contact {
+    background-color: #3A506B;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 4%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-content h2 {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 350;
+    margin-bottom: 20px;
+}
+
+.social-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-content a {
+    color: #5BC0BE;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.whatsapp {
+    font-size: 50px;
+    margin-right: 60px;
+}
+
+.telegram {
+    font-size: 50px;
+    margin-right: 60px;
+}
+
+.email {
+    font-size: 50px;
+}
+
+/* Fim Contato */
+/* Início Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    font-size: 15px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.btn-back {
+    color: #5BC0BE;
+}
+
+/* Fim Footer */
