@@ -283,6 +283,58 @@ section.projects {
     transform: scale(1.1);
     transition: transform 0.5s;
 }
+.estuda {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.estuda img { 
+    width: 60%;    
+    border-radius: 10px;
+    border: 3px solid #5BC0BE;
+    margin-top: 25px; 
+    margin-right: 40px; 
+    box-shadow: #0B132B 0px 0px 10px;
+}
+.estuda img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.estuda-text {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 20px;
+    width: 40%;
+}
+.estuda-text h3 {
+    color: #5BC0BE;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.estuda-skills {
+    display: flex;
+    flex-direction: column;
+}
+.estuda-skill {
+    display: block;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.estuda-skill p {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.estuda-skill i {
+    color: #5BC0BE;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
 
 /* Fim Projetos */
 /* Início Contato */
