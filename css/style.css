@@ -226,6 +226,7 @@ section.projects {
     margin-top: 25px; 
     margin-right: 40px; 
     box-shadow: #0B132B 0px 0px 10px;
+    transition: .5s;
 }
 .cozi img:hover {
     transform: scale(1.1);
@@ -324,6 +325,7 @@ section.projects {
     margin-top: 35px; 
     margin-right: 40px; 
     box-shadow: #0B132B 0px 0px 10px;
+    transition: .5s;
 }
 .game-lovers img:hover {
     transform: scale(1.1);
@@ -341,6 +343,7 @@ section.projects {
     margin-top: 25px; 
     margin-right: 40px; 
     box-shadow: #0B132B 0px 0px 10px;
+    transition: .5s;
 }
 .estuda img:hover {
     transform: scale(1.1);
