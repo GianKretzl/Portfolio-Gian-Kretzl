@@ -145,7 +145,6 @@ header .btn-contato button:hover {
     }
 }
 /* Fim Sobre */
-
 /* Início Skills */
 section.skills {
     padding: 40px 4%;
@@ -380,9 +379,6 @@ section.projects {
     font-size: 18px;
     margin-right: 10px;
 }
-
-
-
 /* Fim Projetos */
 /* Início Contato */
 .contact {
@@ -499,3 +495,134 @@ footer ul {
     font-size: 18px;
 }
 /* Fim Footer */
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0B132B;
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+header {
+    width: 100%;
+    padding: 10px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #0B132B;
+}
+
+/* Consultas de mídia */
+@media only screen and (max-device-width: 900px) {
+    header {
+        padding: 5px 2%;
+    }
+    
+    .top {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .on-content, .projects-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .on-text, .on-img, .cozi-text, .game-lovers-text, .estuda-text {
+        width: 100%;
+        margin: 0;
+    }
+
+    .on-img img, .cozi img, .game-lovers img, .estuda img {
+        width: 80%;
+        margin: 20px 0;
+    }
+}
+
+/* Para telas entre 768px e 1300px */
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+    header {
+        padding: 8px 3%;
+    }
+
+    .top {
+        max-width: 1200px;
+    }
+
+    .on-content, .projects-content {
+        max-width: 1000px;
+    }
+
+    .on-text h1, .on-text h2 {
+        font-size: 28px;
+    }
+
+    .on-text p, .cozi-text, .game-lovers-text, .estuda-text {
+        font-size: 16px;
+    }   
+
+    .icon-item {
+        width: 120px;
+        height: 120px;
+    }
+
+    .icon-item i {
+        font-size: 40px;
+    }
+
+    .icon-item span {
+        font-size: 16px;
+    }
+}
+
+/* Para telas entre 1301px e 1650px */
+@media only screen and (min-width: 1301px) and (max-width: 1650px) {
+    header {
+        padding: 9px 3.5%;
+    }
+
+    .top {
+        max-width: 1350px;
+    }
+
+    .on-content, .projects-content {
+        max-width: 1150px;
+    }
+
+    .on-text h1, .on-text h2 {
+        font-size: 30px;
+    }
+
+    .on-text p, .cozi-text, .game-lovers-text, .estuda-text {
+        font-size: 17px;
+    }
+
+    .skills-list {
+        flex-wrap: wrap;
+    }
+
+    .icon-item {
+        width: 130px;
+        height: 130px;
+    }
+
+    .icon-item i {
+        font-size: 45px;
+    }
+
+    .icon-item span {
+        font-size: 17px;
+    }
+}
