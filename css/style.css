@@ -8,11 +8,17 @@
 body {
     background-color: #0B132B;
     min-height: 100vh;
+    padding-top: 120px; /* Adicionar padding ao corpo para evitar sobreposição com o header fixo */
 }
 
 header {
     width: 100%;
-    padding: 40px 4%;
+    padding: 10px 4%; /* Tamanho fixo reduzido */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #0B132B;
 }
 
 .top {
@@ -60,8 +66,8 @@ header .btn-contato button:hover {
 }
 
 .img-logo {
-    width: 200px;
-    height: 200px;
+    width: 100px; /* Tamanho reduzido fixo */
+    height: 100px; /* Tamanho reduzido fixo */
 }
 
 .social-links a {
@@ -69,7 +75,9 @@ header .btn-contato button:hover {
     font-size: 24px;
 }
 
+
 /* Fim Header */
+
 /* Início Sobre */
 .on {
     background-color: #1C2541;
