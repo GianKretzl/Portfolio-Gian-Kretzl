@@ -77,7 +77,6 @@ header .btn-contato button:hover {
 
 
 /* Fim Header */
-
 /* Início Sobre */
 .on {
     background-color: #1C2541;
@@ -94,19 +93,59 @@ header .btn-contato button:hover {
     justify-content: space-between;
 }
 
+.on-text {
+    width: 50%;
+    margin-right: 50px;
+    text-align: right;
+    line-height: 1.5;
+}
+
 .on-text h1 {
     color: #FFFFFF;
     font-size: 35px;
     font-weight: 300;
 }
 
-.on-text p {
+.on-text h2{
     color: #5BC0BE;
     font-size: 35px;
     font-weight: 500;
 }
+.on-text p {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
 
+.on-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px; /* Adicionar margem para separar a imagem do texto */
+}
+
+.on-img img {
+    width: 60%;
+    border-radius: 10px;
+    border: 3px solid #5BC0BE;
+    box-shadow: #0B132B 0px 0px 10px;
+    animation: borderAnimation 2s infinite; /* Adicionar animação na borda */
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-color: #5BC0BE;
+    }
+    50% {
+        border-color: #1C2541;
+    }
+    100% {
+        border-color: #5BC0BE;
+    }
+}
 /* Fim Sobre */
+
 /* Início Skills */
 section.skills {
     padding: 40px 4%;
