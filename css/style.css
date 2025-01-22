@@ -397,28 +397,58 @@ section.projects {
     width: 200px;
     height: 200px;        
 }
+/* Início Footer */
+.footer-bg {
+    text-align: center;
+    color: #FFFFFF;       
+}
+.logo-footer img {
+    width: 200px;
+    height: 200px;        
+}
 .nav-content {
     display: flex;
-    justify-content: center; 
- 
+    justify-content: center;
+    gap: 100px;
 }
 
 footer ul {
     list-style-type: none;
 }
-.nav-link a{
+.nav-link a {   
     display: flex;
     transition: color 0.2s, transform 0.2s;
 }
-.nav-link i{
+.nav-link i {
     color: #5BC0BE;
     font-size: 25px;
     margin-right: 20px;
-    
 }
-.footer-text{
+.footer-text {
     margin-top: 20px;
     font-size: 18px;
 }
+/* Fim Footer */
 
+footer ul {
+    list-style-type: none;
+}
+.nav-link a {
+    color: white; /* Mudar cor dos links de navegação para branco */
+    display: flex;
+    transition: color 0.2s, transform 0.2s;
+}
+.nav-link i {
+    color: #5BC0BE;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.footer-nav a{
+    color: #FFFFFF;    
+    text-decoration: none;
+}
+.footer-text {
+    margin-top: 20px;
+    font-size: 18px;
+}
 /* Fim Footer */
