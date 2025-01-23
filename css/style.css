@@ -257,7 +257,7 @@ section.projects {
     background-color: #5BC0BE;
     border: none;
     border-radius: 15px;
-    color: #FFFFFF;
+    color: #0B132B;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -620,6 +620,10 @@ footer ul {
     } 
     .contact-content h2 {
         text-align: center;
+    }
+    .logo-footer img {
+        width: 85px;
+        height: 85px;
     }
 
     #to-top-container {
