@@ -70,6 +70,7 @@ header .btn-contato button:hover {
 /* Fim Header */
 /* Início Sobre */
 .on {
+    height: 85vh;
     background-color: #1C2541;
     display: flex;
     justify-content: center;
@@ -112,7 +113,7 @@ header .btn-contato button:hover {
 }
 .on-img img {
     width: 60%;
-    border-radius: 150px;
+    border-radius: 200px;
     border: 3px solid #5BC0BE;
     box-shadow: #0B132B 0px 0px 10px;
     animation: borderAnimation 2s infinite; /* Adicionar animação na borda */
