@@ -35,4 +35,15 @@ document.querySelectorAll('nav a, .footer-nav a').forEach(anchor => {
     });
 });
 
+const menuToggle = document.getElementById('menu-toggle');
+const menuDesktop = document.querySelector('.menu-desktop');
+
+menuToggle.addEventListener('click', () => {
+    menuDesktop.classList.toggle('open');
+});
+
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    const navMenu = document.querySelector('header nav ul');
+    navMenu.classList.toggle('show');
+});
 
